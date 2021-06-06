@@ -17,15 +17,21 @@ view the running app.
 ## Build and run with Docker
 
 ```bash
-# build Dockerfile
-docker build -t tobyqin/a-cat:latest . 
+# build Dockerfile, please change username in the command
+docker build -t tobyqin/a-cat:latest .
 
-# run it 
-docker run -it --rm -p 3000:3000 tobyqin/a-cat 
+# run it
+docker run -it --rm -p 3000:3000 tobyqin/a-cat
 
 # publish to docker hub
 docker login
 docker push tobyqin/a-cat
 ```
 
+## Just use it
 
+This cat app has already been published to docker hub, you can run it by:
+
+```bash
+docker run -d -p 3000:3000 --restart=always tobyqin/a-cat
+```
