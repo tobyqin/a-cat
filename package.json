@@ -1,0 +1,19 @@
+{
+  "name": "a-cat",
+  "version": "1.0.0",
+  "description": "Nodejs demo app.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tobyqin/a-cat"
+  },
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "tobyqin@github",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node": "^12.8.0"
+  }
+}
